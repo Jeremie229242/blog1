@@ -73,7 +73,7 @@
         </div>
 
         <div class="nav-buttons">
-            <div class="nav-settings">
+            <div class="nav-settings" id="switcher-toggle">
                 <i class="ri-settings-3-line"></i>
             </div>
 
@@ -165,14 +165,14 @@
     <!--=============== FOOTER ===============-->
 
     <!--=============== STYLE SWITCHER ===============-->
-<div class="style-switcher">
+<div class="style-switcher" id="style-switcher">
     <h2 class="style-switcher-title">Style Switcher</h2>
 
     <div class="style-switcher-item">
         <h3 class="style-switcher-subtitle"> Colors</h3>
         <div class="style-switcher-colors">
 
-            <span class="style-switcher-color active" style="--hue: 165">
+            <span class="style-switcher-color active-color" style="--hue: 165">
                 <i class="ri-check-line"></i>
             </span>
 
@@ -202,7 +202,7 @@
 
         <div class="style-switcher-themes">
 
-            <div class="style-switcher theme">
+            <div class="style-switcher-theme">
                 <input 
                 type="radio" 
                 class="style-switcher-input" 
@@ -219,8 +219,6 @@
                 type="radio" 
                 class="style-switcher-input" 
                 name="body-theme" 
-                
-                
                 value="dark"
                 id="dark-theme"
                 />
@@ -231,7 +229,7 @@
         </div>
     </div>
 
-<div class="style-switcher-close">
+<div class="style-switcher-close" id="switcher-close">
     <i class="ri-close-line"></i>
 </div>
 
